@@ -76,9 +76,8 @@ h3 {
 .container {
   display: grid;
   justify-content: center;
-  /* border: 5px solid #000; */
-  grid-template-columns: repeat(3, 420px);
-  grid-template-rows: 220px repeat(4, 155px);
+  grid-template-columns: repeat(auto-fit, minmax(420px, 420px));
+  grid-template-rows: 220px repeat(auto-fit, minmax(155px));
 }
 
 /* SUPERVISOR BOX */
@@ -177,4 +176,44 @@ div.karma img {
   margin-left: 16rem;
   margin-top: 2rem;
   height: 70px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1260px) {
+  .container {
+    grid-template-columns: 375px;
+    grid-template-rows: 130px;
+    justify-content: center;
+  }
+  header {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    padding: 0;
+    margin: 0;
+  }
+  div.container header p {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  h1 {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+  }
+  .supervisor {
+    grid-row: 2 / 4;
+    margin: 1rem 0;
+    margin-top: 9rem;
+  }
+  .team-builder {
+    grid-row: 4 / 6;
+    margin: 1rem 0;
+  }
+  .karma {
+    grid-row: 6 / 8;
+    margin: 1rem 0;
+  }
+  .calculator {
+    grid-row: 8 / 10;
+    margin: 1rem 0;
+  }
 }
