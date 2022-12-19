@@ -30,6 +30,8 @@ body {
 .attribution {
   color: inherit;
   font-family: inherit;
+  text-align: center;
+  margin-top: 5rem;
 }
 
 .attribution a:hover {
@@ -44,7 +46,9 @@ body {
 /* MAIN SECTION */
 .container {
   display: grid;
+  justify-content: center;
+  transform: translateY(5%);
+  border: 5px solid #000;
   grid-template-columns: 450px 450px 450px;
-  grid-template-rows: auto 350px 350px;
-  /* grid-row: 2 / span 3; */
+  grid-template-rows: 300px 350px 350px;
 }
