@@ -28,6 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
+![Grid-Card](https://user-images.githubusercontent.com/114027684/208550852-97d1a0de-823c-48d2-a064-3a602b6cdbc5.png)
+
 ### Links
 
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
