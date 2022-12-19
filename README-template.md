@@ -16,6 +16,10 @@
 
 ## Overview
 
+In this challenge, I decided to challenge myself and face head on CSS Grid. It has been something that I have been avoiding lately, but it is necessary to know these days for design and web layouts. Time to learn! And this challenge would be a perfect example for the use of CSS Grid.
+
+- If I am missing anything, or you see anything that could use some fixing, please don't hesitate to throw out some advice! :)
+
 ### The challenge
 
 Users should be able to:
@@ -42,10 +46,16 @@ Users should be able to:
 
 ### Continued development
 
+- CSS Grid
+
 ### Useful resources
+
+Wes Bos - CSS Grid (https://cssgrid.io/)
+Web Dev CSS Grid (https://web.dev/learn/css/grid/)
+MDN Docs (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ab1820](https://www.frontendmentor.io/profile/ab1820)
 
 ## Acknowledgments
