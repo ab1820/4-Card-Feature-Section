@@ -48,8 +48,8 @@ body {
   display: grid;
   justify-content: center;
   border: 5px solid #000;
-  grid-template-columns: repeat(3, 500px);
-  grid-template-rows: 250px 350px 350px 350px 350px;
+  grid-template-columns: repeat(3, 450px);
+  grid-template-rows: 250px repeat(2, 375px);
 }
 
 /* SUPERVISOR BOX */
@@ -57,7 +57,7 @@ body {
   background-color: #fff;
   text-align: left;
   margin: 20px;
-  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.13);
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.144);
   border-radius: 2%;
   border-top: 5px solid var(--light-blue-border);
   grid-row: 3 / 4;
@@ -86,8 +86,21 @@ body {
   grid-row: 3 / 4;
 }
 
+div.calculator p {
+  padding-top: 10px;
+  width: 350px;
+  line-height: 2;
+}
+
+div.calculator img {
+  margin-left: 16rem;
+  margin-top: 4rem;
+  height: 80px;
+}
+
 /* KARMA BOX */
 .karma {
+  padding: 40px;
   background-color: #fff;
   text-align: left;
   margin: 20px;
@@ -97,16 +110,30 @@ body {
   grid-row: 3 / 4;
 }
 
+div.karma p {
+  padding-top: 10px;
+  width: 350px;
+  line-height: 2;
+}
+
+div.karma img {
+  margin-left: 16rem;
+  margin-top: 4rem;
+  height: 80px;
+}
+
 /* HEADER SECTION */
 header {
   text-align: center;
   grid-column: span 3;
+  margin-top: 25px;
 }
 
 h1 {
   color: var(--header-color);
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 200;
+  margin-bottom: 20px;
 }
 
 span {
@@ -114,5 +141,12 @@ span {
 }
 
 div.container header p {
-  margin: auto 500px;
+  margin: auto 400px;
+  font-size: 16px;
+}
+
+/* TITLES AND PARAGRAPHS AND SVG */
+h3 {
+  color: var(--header-color);
+  font-size: 1.5rem;
 }
