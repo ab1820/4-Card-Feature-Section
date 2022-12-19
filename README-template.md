@@ -34,15 +34,19 @@ Users should be able to:
 
 ## My process
 
+- With this challenge I knew I couldn't tackle CSS Grid without watching some videos on it. What helped me was watching the Wes Bos CSS Grid course and following along with the videos, while creating this challenge. It has actually made it a lot easier for me to learn and understand by doing the process along with the videos. 
+I am extremely happy with how it turned out. 
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
 - Mobile-first workflow
 
 ### What I learned
+
+- CSS Grid!!! :D
 
 ### Continued development
 
