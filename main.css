@@ -49,30 +49,57 @@ body {
   justify-content: center;
   /* border: 5px solid #000; */
   grid-template-columns: repeat(3, 450px);
-  grid-template-rows: 250px repeat(2, 350px);
+  grid-template-rows: 250px repeat(4, 175px);
 }
 
 /* SUPERVISOR BOX */
 .supervisor {
+  padding: 40px;
   background-color: #fff;
   text-align: left;
   margin: 20px;
   box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.144);
   border-radius: 2%;
   border-top: 5px solid var(--light-blue-border);
-  grid-row: 3 / 4;
+  grid-row: 3 / 5;
 }
+
+div.supervisor p {
+  padding-top: 10px;
+  width: 320px;
+  line-height: 2;
+}
+
+div.supervisor img {
+  margin-left: 16rem;
+  margin-top: 3rem;
+  height: 80px;
+}
+
 
 /* TEAM BUILDER BOX */
 .team-builder {
+  padding: 40px;
   background-color: #fff;
   text-align: left;
   margin: 20px;
   box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.13);
   border-radius: 2%;
   border-top: 5px solid var(--red-border);
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
+  grid-row: 2 / 4;
+  /* grid-column: 2 / 4; */
+}
+
+div.team-builder p {
+  padding-top: 10px;
+  width: 320px;
+  line-height: 2;
+}
+
+div.team-builder img {
+  margin-left: 16rem;
+  margin-top: 3rem;
+  height: 80px;
 }
 
 /* CALCULATOR BOX */
@@ -84,7 +111,7 @@ body {
   box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.13);
   border-radius: 2%;
   border-top: 5px solid var(--dark-blue-border);
-  grid-row: 3 / 4;
+  grid-row: 3 / 5;
 }
 
 div.calculator p {
@@ -108,7 +135,7 @@ div.calculator img {
   box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.13);
   border-radius: 2%;
   border-top: 5px solid var(--orange-border);
-  grid-row: 3 / 4;
+  grid-row: 4 / 6;
 }
 
 div.karma p {
