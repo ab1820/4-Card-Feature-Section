@@ -2,8 +2,19 @@
 
 /* FONT STYLES */
 /* font-family: 'Poppins', sans-serif; */
+:root {
+  --main-background-color: hsl(0, 0%, 98%);
+  --paragraph-color: hsl(229, 6%, 66%);
+  --header-color: hsl(234, 12%, 34%);
+  --red-border: hsl(0, 78%, 62%);
+  --light-blue-border: hsl(180, 62%, 55%);
+  --orange-border: hsl(34, 97%, 64%);
+  --dark-blue-border: hsl(212, 86%, 64%);
+}
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -11,4 +22,29 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  color: var(--paragraph-color);
+  font-size: 15px;
+}
+
+/* FOOTER */
+.attribution {
+  color: inherit;
+  font-family: inherit;
+}
+
+.attribution a:hover {
+  color: var(--dark-blue-border);
+  text-decoration: none;
+}
+
+.attribution a:visited {
+  color: var(--paragraph-color);
+}
+
+/* MAIN SECTION */
+.container {
+  display: grid;
+  grid-template-columns: 450px 450px 450px;
+  grid-template-rows: auto 350px 350px;
+  /* grid-row: 2 / span 3; */
 }
